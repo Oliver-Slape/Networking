@@ -19,3 +19,46 @@ The benefits are that the cost is greatly reduced as you don’t need the hardwa
 
 ## Standards and Protocols
 ---
+
+### IEEE 802.3
+The standard used for Ethernet protocol is IEEE 802.3. It controls the physical cables used and the way LAN and WAN networks are set up. This is maintained by the Institute of Electrical and Electronics Engineers (IEEE). The IEEE 802.3 was the first standard set for Ethernet cables. However, it has been maintained and updated with working versions such as IEEE 802.7. The standard speed for these connections must be at 10Mbps. 
+
+### IEEE 802.7 
+The subsection .7 of the IEEE 802 is related to broadband cable mediums, standards, design and parameters generally used within broadband LANs. 
+
+### IEEE 802.8
+The subsection .8 refers to standards for fibre connections used in token passing networks. This is very similar to the broadband section and covers similar topics such as connections, design and parameters. It has its own subsection because it is a different connection type and thus needs different standards. 
+
+### IEEE 802.11 
+The subsection .11 refers to standards for wireless connections. The most used example is Wi-Fi and the standard sets out guidelines for design, parameters, types of frequencies, access points and other types of network devices. 
+
+### TCP/IP
+The Transmission Control Protocol/Internet Protocol is a conceptual model that defines how communication protocols are used to connect to the internet via devices or even on private networks. The TCP/IP model is made up of four layers;
+
+Application: This is responsible for network service control internally. This uses protocols like DNS, HTTP, and SMTP ETC
+
+Transport: This layer maintains the protocols for end-to-end communication. This layer has many aspects, some being the TCP, UDP, Flow control, Multiplexing etc.
+
+Internet/Network: This layer is responsible for routing the data packets to the correct network devices whether that be from inside or outside the network. This layer or packs and unpacks the data packets. The data packets contain a source, destination and address that is used to route it across networks.
+
+Network Access: This layer manages the type of connection being used on a network and what protocols are used. It defines how data can be received and delivered over the network. 
+
+### OSI model
+
+Application: This layer gives access and authentication for services to send and receive data using certain protocols. Some of these are SMTP, HTTP, and DNS ETC
+
+Presentation: This layer is responsible for coding and decoding the data packets so that the data can be accessed. Whether it be that they are encrypted or compressed. 
+
+Session: This layer maintains the connection between applications and monitors them. It does this using protocols. The main two being TCP and UDP. 
+
+Network: This layer is sort of like a post office. It receives or sends data packets and makes sure they have correct addresses and are sent to the correct destination. It uses IPv4, Ipv6, and IPX protocols to establish this.
+
+Data link: This layer handles the encoding of data for transmission and decoding using encapsulation and un-encapsulation methods. This is mainly done on the physical link of the network.
+
+Physical: This layer controls the way physical connections are managed, accessed and routed. Whether that be through cables or over network cards. 
+
+### Routed Protocols
+Routed Protocols control how data is managed across networks through an addressing system. 
+?
+?
+?
